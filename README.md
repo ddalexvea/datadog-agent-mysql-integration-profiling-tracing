@@ -400,6 +400,17 @@ kubectl exec -it -n sandbox deploy/mysql -- mysql -udatadog -pdatadog_password -
 | DBM queries visible | ✅ Query samples in DBM | ✅ 16 query samples per run |
 | Environment filter | ✅ Filter with `env:sandbox` | ✅ Works |
 
+### Screenshots
+
+**APM Service page:**
+
+![APM Service](datadog-ui-apm-service.png)
+
+**APM Traces page:**
+
+![APM Traces](datadog-apm-traces.png)
+
+
 ## Key Learnings
 
 ### integration_profiling and integration_tracing are Agent-Level Config
